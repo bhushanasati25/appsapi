@@ -8,8 +8,8 @@ import requests
 app = Flask(__name__)
 
 # URLs to your model and scaler files
-MODEL_URL = 'https://github.com/bhushanasati25/appsapi/blob/main/risk_stratification_model.h5
-SCALER_URL = 'https://github.com/bhushanasati25/appsapi/blob/main/scaler.pkl'
+MODEL_URL = 'https://proj213.s3.us-east-1.amazonaws.com/risk_stratification_model.h5'
+SCALER_URL = 'https://proj213.s3.us-east-1.amazonaws.com/scaler.pkl'
 
 # Paths where the files will be saved
 MODEL_PATH = 'risk_stratification_model.h5'
